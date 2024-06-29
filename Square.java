@@ -1,4 +1,4 @@
-package lab5;
+package lab4;
 
 public class Square {
 	Point A;
@@ -16,8 +16,8 @@ public class Square {
 	public Square(Point A, Point C) {
 		this.A = A;
 		this.C = C;
-		this.B = Point(C.x, A.y);
-		this.D = Point(A.x, C.y);
+		this.B = new Point(C.x, A.y);
+		this.D = new Point(A.x, C.y);
 
 	}
 	
