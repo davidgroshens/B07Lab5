@@ -45,7 +45,7 @@ class SquareTests {
 	@Test
 	void testEqualDiagConstruct2() {
 		Point p1 = new Point(0,0);
-		Point p2 = new Point(root2,0);
+		Point p2 = new Point(root2,root2);
 		
 		Square s = new Square(p1, p2);
 		
