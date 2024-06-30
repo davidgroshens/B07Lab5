@@ -1,5 +1,4 @@
 
-
 public class Triangle {
 	Point A;
 	Point B;
