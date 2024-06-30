@@ -13,6 +13,7 @@ class RectangleTest {
 
     Rectangle rectangle_1, rectangle_2, rectangle_3;
 
+    //Test setup
     @BeforeEach
     void setUp() {
         A_1 = new Point(0, 0);
@@ -36,14 +37,14 @@ class RectangleTest {
 
         rectangle_3 = new Rectangle(A_3, B_3, C_3, D_3);
     }
-
+    //testing method: perimeter
     @Test
     void perimeter() {
         assertEquals(8, rectangle_1.perimeter());
         assertEquals(10, rectangle_2.perimeter());
         assertEquals(8.9442719099991592202059110, rectangle_3.perimeter());
     }
-
+    //testing method: isEquilateral
     @Test
     void isEquilateral() {
         assertTrue(rectangle_1.isEquilateral());
